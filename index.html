@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Certificates Gallery🏆📜</title>
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="header__title">Certificates Gallery🏆📜</h1>
+  </header>
+
+
+
+  <main class="certificates">
+
+
+    <!-- JavaScript will populate certificates here -->
+
+  </main>
+  <div class="modal" id="certificateModal">
+    <span class="modal__close" id="modalClose">&times;</span>
+    <img class="modal__content" id="modalContent" src="certificate 1.png" alt="Certificate">
+
+    <p class="modal__description" id="modalDescription"></p>
+  </div>
+  <script src="script.js"></script>
+
+  <button class="back-button" onclick="goToCertificatesPage()">Go Back</button>
+  </div>
+  
+  <script>
+    function goToCertificatesPage() {
+      window.location.href = 'welcome.html'; // Replace with the actual page URL
+    }
+  </script>
+
+</body>
+</html>
